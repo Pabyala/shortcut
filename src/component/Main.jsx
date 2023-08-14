@@ -5,8 +5,8 @@ import './MainStyle.css'
 import { AiOutlineSearch } from 'react-icons/ai'
 import ShortcutList from './ShortcutList';
 
-const months = ["January", "February", "March", "April", "May", "June", "July", 
-                "August", "September", "October", "November", "December"]
+const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", 
+                "Aug", "Sept", "Oct", "Nov", "Dec"]
 
 export default function Main() {
     const [modalShow, setModalShow] = useState(false);

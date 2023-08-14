@@ -27,7 +27,7 @@ export default function ShortcutList({
             { isSearching ? (
                 <div className='loading-result-div'>Loading...</div>
                 ) : (
-                filterData.length === 0 ? <div className='loading-result-div'>No Result</div> : 
+                filterData.length > 0 && (
                 filterData.reverse().map((shortcut, index) => {
                     return(
                         <li key={index} className='shortcut-content'>
@@ -74,6 +74,7 @@ export default function ShortcutList({
                         </li>
                     )
                 }))
+                )
             }
         </ul>
     )
