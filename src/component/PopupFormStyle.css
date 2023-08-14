@@ -1,0 +1,40 @@
+.form-input{
+    outline: none !important;
+    box-shadow: none !important;
+}
+.form-input:focus{
+    outline: none !important;
+    border-color: #adadad !important;
+}
+.form-label {
+    margin-bottom: 0.3rem !important;
+}
+.error-message{
+    display: flex;
+    align-items: center;
+    height: 19px;
+    padding-top: .4rem;
+}
+.popup-error-message{
+    color: #ff0000;
+    font-size: .8rem;
+}
+.btn-save-wrap{
+    justify-content: center !important;
+    background-color: #d6d6d6 !important;
+}
+.btn-save{
+    background-color: #000000 !important;
+    border: 1px solid #000000 !important;
+    color: #ffff !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    width: 100% !important;
+    padding: .8rem 0 !important;
+    transition: .3s ease-in-out !important;
+}
+.btn-save:hover{
+    border: 1px solid #000000 !important;
+    background-color: #bbbbbb !important;
+    color: #000000 !important;
+}

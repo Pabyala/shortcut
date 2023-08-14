@@ -1,0 +1,29 @@
+#contained-modal-title-vcenter{
+    font-size: 1.3rem !important;
+}
+.confirm-text{
+    font-size: 1.1rem !important;
+    margin-bottom: 0 !important;
+}
+.btn-close {
+    --bs-btn-close-hover-opacity: initial !important;
+    --bs-btn-close-focus-shadow: initial !important;
+    --bs-btn-close-focus-opacity: initial !important;
+    --bs-btn-close-disabled-opacity: initial !important;
+    --bs-btn-close-white-filter: initial !important;
+}
+.modal-footer {
+    border-top: none !important;
+    background-color: var(--bs-modal-header-border-color) !important;
+}
+.btn-no, .btn-yes{
+    background-color: #000000 !important;
+    border: 1px solid #000000 !important;
+    color: #ffff !important;
+    transition: .3s ease-in-out !important;
+}
+.btn-no:hover, .btn-yes:hover{
+    border: 1px solid #000000 !important;
+    background-color: #bbbbbb !important;
+    color: #000000 !important;
+}

@@ -1,0 +1,149 @@
+.shortcut-list{
+    display: grid;
+    gap: .4rem;
+    grid-template-columns: repeat(auto-fill,minmax(110px,1fr));
+    padding-left: 0;
+}
+.shortcut-content-btn{
+    list-style: none;
+    display: block;
+    padding: .8rem .4rem;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.1);
+    transition: .3s ease-in-out;
+}
+.addShortcut-btn-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.addShortcut-icon{
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px dashed #000000;
+    margin-bottom: 1rem;
+}
+.addShortcut-pluss-icon{
+    font-size: 2.8rem;
+}
+.addShortcut-text-wrap{
+    text-align: center;
+}
+.addShortcut-text{
+    font-size: .9rem;
+}
+
+.shortcut-content{
+    list-style: none;
+    display: block;
+    padding: .4rem;
+    border-radius: 3px;
+    position: relative;
+    box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.1);
+    transition: .3s ease-in-out;
+}
+.shortcut-content:hover, .shortcut-content-btn:hover{
+    background-color: #ffffff54;
+    box-shadow: initial;
+}
+.link{
+    cursor: pointer;
+    color: #000000;
+}
+.title-icon-wrap{
+    margin-bottom: .3rem;
+}
+.icon{
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #9e9c9e54;
+    height: 60px;
+    width: 60px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.title-wrap{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    margin-bottom: .2rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.title{
+    font-size: .9rem;
+}
+
+.date-option-wrap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 20px;
+}
+.date-wrap{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.date{
+    font-size: .8rem;
+}
+.more-option{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.more-option:hover .option-icon{
+    color: red;
+}
+.option-icon{
+    font-size: .9rem;
+    cursor: pointer;
+} 
+.edit-delete-option{
+    background-color: #d1d1d1;
+    padding: .3rem .5rem;
+    width: 5.5rem;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 1.8rem;
+    right: 1.1rem;
+    transform: scale(0);
+    transition: transform 0.2s ease-in-out;
+    transform-origin: bottom right;
+}
+.edit-delete-option.show{
+    transform: scale(1);
+}
+.edit-wrap, .delete-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    font-size: 0.8125rem;
+}
+.edit-icon, .delete-icon{
+    margin-right: .5rem;
+}
+.icon{
+    overflow: hidden;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
