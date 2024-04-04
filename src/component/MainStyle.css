@@ -1,5 +1,4 @@
 .main{
-    height: 100vh;
     max-width: 800px;
     margin: 0 auto;
     display: flex;
@@ -59,7 +58,6 @@ a {
 }
 
 .shortcut-list-con{
-    height: 560px;
     padding: .5rem;
     overflow: auto;
     border-radius: 3px;
