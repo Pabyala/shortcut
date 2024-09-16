@@ -221,7 +221,7 @@ export default function Main() {
 
 
     return (
-        <div className='main'>
+        <div className='main container'>
             <div className="main-wrap">
                 <h1 className='main-title'>Google Shortcut</h1>
                 <form className="input-search-wrap">

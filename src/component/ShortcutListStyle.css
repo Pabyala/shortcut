@@ -1,3 +1,28 @@
+.wraplist{
+    position: relative;
+    overflow-x: auto;
+}
+.listcon{
+    overflow-y: scroll;
+    max-height: calc(100vh - 200px);
+}
+.listcon::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+.listcon::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.listcon::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.listcon::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
 .shortcut-list{
     display: grid;
     gap: .4rem;
@@ -36,7 +61,7 @@
     text-align: center;
 }
 .addShortcut-text{
-    font-size: .9rem;
+    font-size: .8rem;
 }
 
 .shortcut-content{
@@ -81,7 +106,7 @@
     text-overflow: ellipsis;
 }
 .title{
-    font-size: .9rem;
+    font-size: .8rem;
 }
 
 .date-option-wrap{
@@ -98,7 +123,7 @@
     justify-content: center;
 }
 .date{
-    font-size: .8rem;
+    font-size: .7rem;
 }
 .more-option{
     display: flex;
